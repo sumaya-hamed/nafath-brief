@@ -126,3 +126,7 @@ This shows that a network slice is logical, not a completely separate physical n
 Open Question
 
 How can the operator test its dedicated 5G network slice to make sure emergency workers can communicate during heavy network traffic, network failures, and cyberattacks?
+
+Overview
+
+The NAFATH-V2 project combines six IT fields to keep a 5G service reliable for emergency workers. Software engineering ensures that requests are handled safely, even when connections fail and clients retry them. Artificial Intelligence (AI) helps predict network congestion so the operator can prepare resources before service quality decreases. Mobile applications allow emergency workers to access important information offline and synchronize updates when the connection returns. Networking uses 5G network slicing to provide network resources designed for emergency communications. Cybersecurity helps detect attacks, limit their impact, and restore the service safely. Data engineering organizes network usage information into reports that help managers compare performance across regions and days. Together, these fields support reliable communication, protect important information, and help the operator make informed decisions. This brief focuses on 5G network slicing and how a dedicated slice can support emergency responders during network congestion.
