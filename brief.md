@@ -108,3 +108,21 @@ This makes it easier for managers to compare network usage by date and region.
 
 Resource: Microsoft Learn – Star Schema in Power BI
 https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
+
+Misconception in My Track
+
+A common misunderstanding is that 5G network slicing creates a completely separate physical network for emergency workers.
+
+In fact, network slicing creates a logical network that can share the same physical infrastructure with other services.
+
+A special network slice can help emergency workers communicate during busy network conditions.
+
+However, it cannot guarantee service during every outage or cyberattack.
+
+The 3GPP specification explains that a network slice is a logical network with specific capabilities and characteristics.
+
+This shows that a network slice is logical, not a completely separate physical network.
+
+Open Question
+
+How can the operator test its dedicated 5G network slice to make sure emergency workers can communicate during heavy network traffic, network failures, and cyberattacks?
