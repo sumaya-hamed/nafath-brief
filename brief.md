@@ -61,3 +61,50 @@ It should also prevent duplicate updates and protect private information using e
 
 Resource: Android Developers – Build an offline-first app
 https://developer.android.com/topic/architecture/data-layer/offline-first
+
+
+Networking
+
+5G network slicing creates different logical networks using the same physical network infrastructure.
+
+The operator can create a special network slice for emergency workers.
+
+This slice can be designed to provide fast communication, reliable connections, and enough network capacity.
+
+During busy times, network rules can give important emergency communications higher priority.
+
+However, a dedicated slice cannot prevent every outage or cyberattack. The operator still needs strong security, backup systems, and continuous monitoring.
+
+Resource: ETSI – 5G Management and Orchestration
+https://www.etsi.org/deliver/etsi_ts/128500_128599/128530/16.06.00_60/ts_128530v160600p.pdf
+
+Cybersecurity
+
+The incident response process has six main steps:
+
+1. Preparation: Prepare security plans, trained teams, backups, and monitoring tools.
+2. Detection and Analysis: Find suspicious activity and understand the problem.
+3. Containment: Limit the damage and stop the attack from spreading.
+4. Eradication: Remove the threat from the system.
+5. Recovery: Restore the service and check that it works safely.
+6. Lessons Learned: Learn from the incident and improve security.
+
+The team must work together to protect emergency communications and reduce service interruptions.
+
+Resource: NIST – Computer Security Incident Handling Guide
+https://csrc.nist.gov/pubs/sp/800/61/r2/final
+
+Data
+
+A star schema has one main fact table connected to dimension tables.
+
+A snowflake schema has dimension tables connected to other related tables. It can reduce repeated information, but it is more complex.
+
+For daily reports about network usage in different regions, a star schema is usually easier to use.
+
+The fact table can store network usage information. The date and region tables can help organize the data.
+
+This makes it easier for managers to compare network usage by date and region.
+
+Resource: Microsoft Learn – Star Schema in Power BI
+https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
